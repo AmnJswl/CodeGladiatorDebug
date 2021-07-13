@@ -48,5 +48,6 @@ main()
     if (tok==T_STOP)
       break;
   }
+  printf("%s\n", buf_out);
   return 0;
 }
