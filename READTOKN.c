@@ -37,6 +37,7 @@ Token read_token(char buf[])
 {
   int i;
   char c;
+  // Changed slash character with find & replace
   /* skip leading white space */
   for( c=nextchar();
        isspace(c);

@@ -13,6 +13,7 @@ extern void push(IntStack * stk, int num)
 {
   IntLink * ptr;
   ptr       = (IntLink *) malloc( sizeof(IntLink));  /*  PUSHPOP1   */
+  // Changed Dash character with find and replace
   ptr->i    = num;                /*  PUSHPOP2  statement */
   ptr->next = stk->top;
   stk->top  = ptr;
